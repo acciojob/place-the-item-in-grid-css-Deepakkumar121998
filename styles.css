@@ -3,7 +3,7 @@
 .holder{
 	
   display: grid;
-  grid-template-columns: 1fr 2fr; /* Two columns with width ratio 1:2 */
+  grid-template-columns: 1fr 100px; /* Two columns with width ratio 1:2 */
   grid-template-rows: 100px 200px; /* Two rows with heights 100px and 200px */
 }
 
