@@ -1,9 +1,8 @@
-
-/* Your CSS Code here. */
-.holder{
-	
+.holder {
   display: grid;
-  grid-template-columns: 1fr 100px; /* Two columns with width ratio 1:2 */
-  grid-template-rows: 100px 200px; /* Two rows with heights 100px and 200px */
+  grid-template-columns: repeat(2, 100px);
+  grid-template-rows: repeat(2, 100px);
+  grid-gap: 0; /* Adjust the gap between grid items if needed */
+  width: 200px;
+  height: 200px;
 }
-
